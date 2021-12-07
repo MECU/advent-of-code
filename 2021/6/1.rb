@@ -27,14 +27,11 @@ def main(days)
         p new_fish
         fish = new_fish
     end
-p fish
 
     p fish.values.sum
 end
 
-# main(4)
-# exit
 # part 1, 80 days = 343441
 main(80)
-# part 2, 256 days = 
+# part 2, 256 days
 main(256)
